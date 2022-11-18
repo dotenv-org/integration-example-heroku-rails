@@ -83,12 +83,12 @@ GEM
     dotenv-rails (2.8.1)
       dotenv (= 2.8.1)
       railties (>= 3.2)
-    dotenv-vault (0.8.0)
+    dotenv-vault (0.10.0)
       dotenv
       lockbox
-    dotenv-vault-rails (0.8.0)
+    dotenv-vault-rails (0.10.0)
       dotenv-rails
-      dotenv-vault (= 0.8.0)
+      dotenv-vault (= 0.10.0)
     erubi (1.11.0)
     ffi (1.15.5)
     globalid (1.0.0)
@@ -224,7 +224,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
-  dotenv-vault-rails
+  dotenv-vault-rails (= 0.10.0)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   puma (~> 5.0)
